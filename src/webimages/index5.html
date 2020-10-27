@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Images</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <picture>
+            <source 
+            type="image/avif"
+            srcset="images/optimized-640.avif 640w,
+                    images/optimized-1440.avif 1440w,
+                    images/optimized-2240.avif 2240w,
+                    images/optimized.avif 2880w" />
+            <source 
+                type="image/jpeg"
+                srcset="images/optimized-640.jpg 640w,
+                        images/optimized-1440.jpg 1440w,
+                        images/optimized-2240.jpg 2240w,
+                        images/optimized.jpg 2880w" />
+            <img loading="lazy" src="images/original.jpg" />
+        </picture>
+    </div>
+</body>
+</html>

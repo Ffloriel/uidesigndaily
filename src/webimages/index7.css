@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: -webkit-image-set(
+                                /* url("./images/optimized-640.avif") 1x,
+                                url("./images/optimized-1440.avif") 2x,
+                                url("./images/optimized-2240.avif") 2.5x,
+                                url("./images/optimized.avif") 3x */
+                                url("./images/optimized-640.jpg") 1x,
+                                url("./images/optimized-1440.jpg") 2x,
+                                url("./images/optimized-2240.jpg") 2.5x,
+                                url("./images/optimized.jpg") 3x
+                                )
+}

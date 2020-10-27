@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Day-1125-Page-Insights-UI-Design" transform="translate(-1155.000000, -426.000000)">
+            <g id="Group-6" transform="translate(294.000000, 322.000000)">
+                <g id="Group-3" transform="translate(831.000000, 89.000000)">
+                    <g id="Group-2">
+                        <g id="Group" transform="translate(30.000000, 15.000000)">
+                            <polygon id="Path" points="0 0 25 0 25 25 0 25"></polygon>
+                            <path d="M9.375,7.29166667 L6.25,7.29166667 C5.09940677,7.29166667 4.16666667,8.22440677 4.16666667,9.375 L4.16666667,18.75 C4.16666667,19.9005932 5.09940677,20.8333333 6.25,20.8333333 L15.625,20.8333333 C16.7755932,20.8333333 17.7083333,19.9005932 17.7083333,18.75 L17.7083333,15.625" id="Path" stroke="#FFFFFF" stroke-width="1.5625" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9.375,15.625 L12.5,15.625 L21.3541667,6.77083333 C22.2171116,5.90788841 22.2171116,4.50877825 21.3541667,3.64583333 C20.4912217,2.78288841 19.0921116,2.78288841 18.2291667,3.64583333 L9.375,12.5 L9.375,15.625" id="Path" stroke="#FFFFFF" stroke-width="1.5625" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <line x1="16.6666667" y1="5.20833333" x2="19.7916667" y2="8.33333333" id="Path" stroke="#FFFFFF" stroke-width="1.5625" stroke-linecap="round" stroke-linejoin="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

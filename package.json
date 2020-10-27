@@ -6,9 +6,9 @@
   "author": "Ffloriel <florielfedry@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build src/**/index.*",
-    "start": "parcel serve src/**/index.*",
-    "dev": "parcel src/**/index.*"
+    "build": "parcel build src/**/*.html",
+    "start": "parcel serve src/**/*.html",
+    "dev": "parcel src/**/*.html"
   },
   "devDependencies": {
     "parcel": "^2.0.0-beta.1"
