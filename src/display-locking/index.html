@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Locking</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <img src="./images/optimized-640.jpg">
+            <div class="information">
+                <h3>Title</h3>
+                <p>This is the description</p>
+            </div>
+        </div>
+    </div>
+
+    <virtual-scroller class="scroller">
+
+    </virtual-scroller>
+
+    <script>
+        const NUMBER_ROWS = 50000
+        const container = document.querySelector('.container')
+        for (let i = 0; i < NUMBER_ROWS; i++) {
+            const row = document.createElement("div")
+            row.classList.add('row')
+            row.innerHTML = `
+                <img src="./images/optimized-640.jpg">
+                <div class="information">
+                    <h3>Title</h3>
+                    <p>This is the description</p>
+                </div>
+            `
+            container.appendChild(row)
+        }
+    </script>
+
+    <script type="module">
+        import("std:elements/virtual-scroller");
+    </script>
+
+    <!-- <script>
+        const NUMBER_ROWS = 50000
+        const container = document.querySelector('.scroller')
+        for (let i = 0; i < NUMBER_ROWS; i++) {
+            const row = document.createElement("div")
+            row.classList.add('row')
+            row.innerHTML = `
+                <img src="./images/optimized-640.jpg">
+                <div class="information">
+                    <h3>Title</h3>
+                    <p>This is the description</p>
+                </div>
+            `
+            container.appendChild(row)
+        }
+    </script> -->
+
+</body>
+</html>

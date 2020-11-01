@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+html {
+    background-color: #F4F4F4;
+    font-family: 'Muli', sans-serif;
+    color: #2E2E2E;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container,
+.scroller {
+    width: 800px;
+}
+
+.row {
+    border-bottom: 1px solid #2E2E2E;
+    display: flex;
+    height: 250px;
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 250px;
+}
+
+.row img {
+    width: 250px;
+    height: 100%;
+    object-fit: contain;
+    margin-right: 20px;
+}
