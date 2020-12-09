@@ -8,15 +8,16 @@ html, body {
 }
 
 html {
-    background-color: #F4F4F4;
-    font-family: 'Muli', sans-serif;
     color: #2E2E2E;
+    font-family: 'Muli', sans-serif;
+
+    background-color: #F4F4F4;
 }
 
 body {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .container,
@@ -25,9 +26,10 @@ body {
 }
 
 .row {
-    border-bottom: 1px solid #2E2E2E;
     display: flex;
     height: 250px;
+
+    border-bottom: 1px solid #2E2E2E;
     content-visibility: auto;
     contain-intrinsic-size: 1px 250px;
 }
@@ -35,6 +37,6 @@ body {
 .row img {
     width: 250px;
     height: 100%;
-    object-fit: contain;
     margin-right: 20px;
+    object-fit: contain;
 }

@@ -8,9 +8,17 @@
   "scripts": {
     "build": "parcel build src/**/*.html",
     "start": "parcel serve src/**/*.html",
-    "dev": "parcel src/**/*.html"
+    "dev": "parcel src/**/*.html",
+    "lint:css": "stylelint --fix 'src/**/*.css'"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.0.0-beta.1",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2"
   }
 }

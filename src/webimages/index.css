@@ -9,20 +9,22 @@ html, body {
 }
 
 html {
-    background-color: #F4F4F4;
-    font-family: 'Muli', sans-serif;
     color: #2E2E2E;
+    font-family: 'Muli', sans-serif;
+
+    background-color: #F4F4F4;
 }
 
 body {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .container {
-    padding: 20px;
     height: 100%;
+    padding: 20px;
+
     box-shadow: 0 27px 57px -17px rgba(35,28,79,0.57);
 }
 

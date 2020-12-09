@@ -8,15 +8,18 @@ h1, h2, h3, p {
 
 html, body {
     width: 100%;
-    background-color: #ffffff;
+
     color: rgba(14, 23, 49);
     font-family: 'Muli', sans-serif;
+
+    background-color: #ffffff;
 }
 
 nav {
     width: 1280px;
     height: 104px;
     margin: auto;
+
     border-bottom: 1px solid #D0D5E4;
 }
 
@@ -42,22 +45,25 @@ nav {
 }
 
 .nav-cta {
-    height: fit-content;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 12px 25px;
+    justify-content: center;
+    height: fit-content;
     margin-left: 20px;
+    padding: 12px 25px;
+
+    color: rgba(14, 23, 49);
+
+    background: #ffffff;
+    border: 1px solid rgba(14, 23, 49, 0.5);
 
     border-radius: 22px;
-    border: 1px solid rgba(14, 23, 49, 0.5);
-    color: rgba(14, 23, 49);
-    background: #ffffff;
 }
 
 .nav-cta-dark {
-    background: rgba(14, 23, 49);
     color: #ffffff;
+
+    background: rgba(14, 23, 49);
 }
 
 .container {
@@ -73,23 +79,27 @@ nav {
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
-    color: rgba(14, 23, 49);
     padding: 0 15px;
+
+    color: rgba(14, 23, 49);
+    text-decoration: none;
+
+    cursor: pointer;
 }
 
 .search-input {
     display: flex;
+    justify-content: flex-end;
     width: 50%;
     height: 100%;
-    justify-content: flex-end;
+
+    font-size: 20px;
+
+    background: url('./img/icons/border/dark/search.svg') no-repeat;
+    background-position-x: right;
+    background-position-y: center;
     border: 0;
     outline: 0;
-    background: url('./img/icons/border/dark/search.svg') no-repeat;
-    background-position-y: center;
-    background-position-x: right;
-    font-size: 20px;
 }
 
 .search-input:focus {
@@ -99,8 +109,8 @@ a {
 label {
     position: absolute;
     top: 0;
-    bottom: 0;
     right: 0;
+    bottom: 0;
 }
 
 label img {
@@ -108,9 +118,10 @@ label img {
 }
 
 h1 {
+    margin: 30px 0;
+
     font-weight: 700;
     font-size: 52px;
-    margin: 30px 0;
 }
 
 .content-container {
@@ -119,21 +130,23 @@ h1 {
 
 .featured-article {
     display: flex;
-    flex-direction: column;
     flex: 1;
+    flex-direction: column;
 }
 
 h4 {
-    font-size: 36px;
-    font-weight: 700px;
-    margin-bottom: 13px;
     width: 80%;
+    margin-bottom: 13px;
+
+    font-weight: 700px;
+    font-size: 36px;
 }
 
 p {
-    font-size: 18px;
-    font-weight: 700px;
     margin-bottom: 30px;
+
+    font-weight: 700px;
+    font-size: 18px;
     line-height: 27px;
 }
 
@@ -144,22 +157,24 @@ p {
 }
 
 .author-name {
+    margin-left: 10px;
+
     font-weight: 400;
     font-size: 18px;
-    margin-left: 10px;
 }
 
 .recent-articles {
     display: flex;
-    flex-direction: column;
     flex: 1;
+    flex-direction: column;
     padding-left: 70px;
 }
 
 h2 {
     margin-bottom: 24px;
-    font-size: 28px;
+
     font-weight: 700;
+    font-size: 28px;
 }
 
 .recent-article-container {
