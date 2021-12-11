@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+
+  font-family: Helvetica;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ecf4f4;
+}
+
+.timeline-container {
+  width: 497px;
+  padding: 91px 74px;
+
+  background-image: url("./timeline-background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.timeline {
+  position: relative;
+
+  padding-top: 40px;
+
+  background-color: rgba(236, 241, 245, 0.14);
+  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
+  box-shadow: 0 20px 53px -30px rgba(95, 102, 173, 0.57);
+  backdrop-filter: blur(20px);
+}
+
+.timeline-mask {
+  position: absolute;
+  top: 193px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  background-color: rgb(250, 252, 253);
+  border-radius: 0 0 10px 10px;
+}
+
+.timeline h2 {
+  margin-bottom: 12px;
+  padding: 0 66px;
+
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.information-updates {
+  padding: 0 66px 47px 66px;
+
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.timeline-update {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 0 40px;
+  overflow: hidden;
+}
+
+.update-point::before,
+.update-point::after {
+  position: absolute;
+  left: 6px;
+
+  display: flex;
+  justify-content: center;
+  width: 2px;
+  height: 100px;
+
+  background-color: #d1d6e6;
+
+  content: "";
+}
+.update-point::before {
+  bottom: 100%;
+}
+
+.update-point::after {
+  top: 100%;
+}
+
+.timeline-update:first-of-type .update-point::before {
+    display: none;
+  }
+
+.update-point {
+  position: relative;
+
+  width: 14px;
+  height: 14px;
+
+  background-color: #d1d6e6;
+  border-radius: 50%;
+}
+
+.update-box-container {
+  margin-bottom: 10px;
+
+  padding: 25px;
+
+  color: #2b2862;
+
+  font-size: 16px;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 16px 15px -10px rgba(105, 96, 215, 0.09);
+}
+
+.time {
+  margin-bottom: 12px;
+
+  font-size: 1rem;
+}
+
+.update-description {
+  font-size: 14px;
+}
+
+.show-all-update-container {
+  padding: 45px 53px;
+
+  background-color: #ffffff;
+}
+
+.show-all-update-button {
+  width: 100%;
+  padding: 21px 65px;
+
+  font-size: 14px;
+
+  background: #ffffff;
+  border: 1px solid #8260d7;
+  border-radius: 5px;
+  outline: none;
+}

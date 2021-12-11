@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="497px" height="284px" viewBox="0 0 497 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="497" height="284" rx="20"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Day-1216-Timeline-UI-Design" transform="translate(-539.000000, -205.000000)">
+            <g id="Group-3" transform="translate(539.000000, 205.000000)">
+                <g id="Path">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FAC24F" xlink:href="#path-1"></use>
+                    <path d="M-38.5,261 C9.83333333,191 67.1666667,156 133.5,156 C233,156 427,224 532.5,95 C602.833333,9 598,77.6666667 518,301 L-49,311.5 L-38.5,261 Z" fill="#FF768E" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
